@@ -1,0 +1,16 @@
+{
+  "Lớp 3": {
+    "Toán": {
+      "Học kỳ I": {
+        "Số học": {
+          "Bài 1": {
+            "recognize": {"questions": 3},
+            "understand": {"questions": 2},
+            "apply": {"questions": 1},
+            "allowed_types": ["MCQ","TrueFalse","FillBlank","Essay"]
+          }
+        }
+      }
+    }
+  }
+}
