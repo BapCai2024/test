@@ -10,9 +10,14 @@
     "level": "recognize",
     "points": 0.5,
     "prompt": "Số nào lớn hơn: 34.567 hay 34.657?",
-    "options": ["34.567", "34.657", "Bằng nhau", "Không xác định"],
-    "answer": "34.657",
-    "explanation": "So sánh ở hàng chục: 5 < 6."
+    "options": ["34567", "34657", "Bằng nhau", "Không xác định"],
+    "answer": "34657",
+    "explanation": "So sánh hàng chục: 5 < 6.",
+    "unit": "",
+    "tags": ["So_hoc", "L3_T_01", "so_sanh_so"],
+    "seed": 123456,
+    "variant": "compare_5digits",
+    "book_series": "KNTT"
   },
   {
     "id": "Q-TOAN-3-HK1-02",
@@ -27,7 +32,12 @@
     "prompt": "9.999 + 1 = 10.000.",
     "options": null,
     "answer": "Đúng",
-    "explanation": "Đổi 9.999 + 1 sang số tròn chục nghìn."
+    "explanation": "Đổi 9.999 + 1 thành số tròn chục nghìn.",
+    "unit": "",
+    "tags": ["So_hoc", "L3_T_02", "cong_tron_chuc_nghin"],
+    "seed": 789012,
+    "variant": "sum_round",
+    "book_series": "CTST"
   },
   {
     "id": "Q-TOAN-3-HK1-03",
@@ -35,13 +45,18 @@
     "subject": "Toán",
     "semester": "HK1",
     "topic_id": "Hinh_hoc",
-    "lesson_id": "L3_T_04",
+    "lesson_id": "L3_T_06",
     "type": "FillBlank",
     "level": "recognize",
-    "points": 1,
+    "points": 1.0,
     "prompt": "Đường kính hình tròn gấp mấy lần bán kính? ______ lần.",
     "options": null,
-    "answer": "2",
-    "explanation": "Đường kính = 2 × bán kính."
+    "answer": 2,
+    "explanation": "Đường kính = 2 × bán kính.",
+    "unit": "",
+    "tags": ["Hinh_hoc", "L3_T_06", "duong_kinh"],
+    "seed": 654321,
+    "variant": "circle_diameter_basic",
+    "book_series": "CanhDieu"
   }
 ]
