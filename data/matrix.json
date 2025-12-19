@@ -27,6 +27,16 @@
             "apply": { "questions": 1 },
             "allowed_types": ["MCQ", "TrueFalse", "FillBlank", "Essay"]
           }
+        },
+        {
+          "lesson_id": "L3_T_03",
+          "title": "Nhân, chia số có hai đến ba chữ số cho số có một chữ số",
+          "matrix": {
+            "recognize": { "questions": 3 },
+            "understand": { "questions": 2 },
+            "apply": { "questions": 1 },
+            "allowed_types": ["MCQ", "TrueFalse", "FillBlank", "Essay"]
+          }
         }
       ]
     },
@@ -35,8 +45,18 @@
       "title": "Giải toán có lời văn",
       "lessons": [
         {
-          "lesson_id": "L3_T_03",
-          "title": "Dạng toán hơn kém, gấp/giảm số lần",
+          "lesson_id": "L3_T_04",
+          "title": "Dạng hơn kém số đơn vị",
+          "matrix": {
+            "recognize": { "questions": 2 },
+            "understand": { "questions": 2 },
+            "apply": { "questions": 1 },
+            "allowed_types": ["MCQ", "TrueFalse", "Essay"]
+          }
+        },
+        {
+          "lesson_id": "L3_T_05",
+          "title": "Dạng gấp/giảm số lần, rút về đơn vị",
           "matrix": {
             "recognize": { "questions": 2 },
             "understand": { "questions": 2 },
@@ -51,13 +71,39 @@
       "title": "Hình học cơ bản",
       "lessons": [
         {
-          "lesson_id": "L3_T_04",
+          "lesson_id": "L3_T_06",
           "title": "Hình tròn: tâm, bán kính, đường kính",
           "matrix": {
             "recognize": { "questions": 2 },
             "understand": { "questions": 1 },
             "apply": { "questions": 1 },
             "allowed_types": ["MCQ", "FillBlank", "Essay"]
+          }
+        },
+        {
+          "lesson_id": "L3_T_07",
+          "title": "Chu vi, diện tích hình chữ nhật và hình vuông",
+          "matrix": {
+            "recognize": { "questions": 2 },
+            "understand": { "questions": 2 },
+            "apply": { "questions": 1 },
+            "allowed_types": ["MCQ", "FillBlank", "Essay"]
+          }
+        }
+      ]
+    },
+    {
+      "topic_id": "Thong_ke",
+      "title": "Thống kê",
+      "lessons": [
+        {
+          "lesson_id": "L3_T_08",
+          "title": "Bảng số liệu đơn giản, biểu đồ tranh",
+          "matrix": {
+            "recognize": { "questions": 2 },
+            "understand": { "questions": 2 },
+            "apply": { "questions": 0 },
+            "allowed_types": ["MCQ", "TrueFalse", "FillBlank"]
           }
         }
       ]
